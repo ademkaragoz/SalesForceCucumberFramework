@@ -1,0 +1,145 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1796418320,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on main page",
+            "match": {
+              "location": "LoginPageSD.setMainPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7712516265,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedSD.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Click login button from main page",
+        "description": "",
+        "id": "login-page-feature;click-login-button-from-main-page",
+        "after": [
+          {
+            "result": {
+              "duration": 199700684,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedSD.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 296281168,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter talhakaragoz@gmail.com into username field on the login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "talhakaragoz@gmail.com",
+                  "offset": 8
+                },
+                {
+                  "val": "username",
+                  "offset": 36
+                }
+              ],
+              "location": "LoginPageSD.enterDataIntoTextField(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54025575,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter test786! into password field on the login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test786!",
+                  "offset": 8
+                },
+                {
+                  "val": "password",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginPageSD.enterDataIntoTextField(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7894652018,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on login button on the login page",
+            "match": {
+              "location": "LoginPageSD.clickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26638726,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I verify invalid login massage on login page",
+            "match": {
+              "location": "LoginPageSD.verifyLoginErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Login page feature",
+    "description": "",
+    "id": "login-page-feature",
+    "keyword": "Feature",
+    "uri": "LoginPage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@web"
+      }
+    ]
+  }
+]

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1597301199105" stop="1597301257912" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Click login button from main page</name>
+    <title>Click login button from main page</title>
+    <test-cases>
+        <test-case start="1597301209129" stop="1597301209132" status="passed">
+            <name>Given I am on main page</name>
+            <title>Given I am on main page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="newusers-MacBook-Pro.local"/>
+                <label name="thread" value="5760@newusers-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1597301219689" stop="1597301219689" status="passed">
+            <name>When I enter talhakaragoz@gmail.com into username field on the login page</name>
+            <title>When I enter talhakaragoz@gmail.com into username field on the login page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="newusers-MacBook-Pro.local"/>
+                <label name="thread" value="5760@newusers-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1597301229758" stop="1597301229758" status="passed">
+            <name>And I enter test786! into password field on the login page</name>
+            <title>And I enter test786! into password field on the login page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="newusers-MacBook-Pro.local"/>
+                <label name="thread" value="5760@newusers-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1597301247668" stop="1597301247668" status="passed">
+            <name>And I click on login button on the login page</name>
+            <title>And I click on login button on the login page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="newusers-MacBook-Pro.local"/>
+                <label name="thread" value="5760@newusers-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1597301257706" stop="1597301257706" status="passed">
+            <name>Then I verify invalid login massage on login page</name>
+            <title>Then I verify invalid login massage on login page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="newusers-MacBook-Pro.local"/>
+                <label name="thread" value="5760@newusers-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Click login button from main page"/>
+        <label name="feature" value="Login page feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
